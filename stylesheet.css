@@ -1,14 +1,55 @@
+html{
+	background: linear-gradient(white,black);
+}
+
 h1 {
-    font-size: 40px;
-    color: rgb(88, 5, 5);
+    font-size: 50px;
+    color: white;
     font-style: italic;
     font-family: 'Merienda', cursive;
+  text-align: center;
+	background-color: black;
+	margin: 50px 350px;
+   padding: 30px 30px;
+	 text-shadow: 2px 2px 7px white;
+	
+	}
+
+h2{
+	font-size: 30px;
+	margin-left: 80px;
 }
+
+a{
+	display: block;
+	color: rgba(97,10,11,1.00);
+	text-decoration: none;
+	
+}
+
+
+
+a:hover{
+	text-shadow: 2px 2px  red;
+	transition-duration: 1s;
+	
+}
+
+
 
 p {
     font-family: 'Itim', cursive;
-    font-size: 16px;
-    line-height: 5px;
-    color: azure;
-
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+	
+	margin: 50px 400px;
+	text-align: center;
+	border: solid 3px black;
+}
+p:hover{
+	background-color: rgba(251,251,251,0.53);
+	border: solid 2px white;
+	box-shadow: 2px 2px 7px white;
+	transition-duration: 1s ;
 }
