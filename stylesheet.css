@@ -1,58 +1,60 @@
-html {
-	background: linear-gradient(white, black);
-}
-
-av {
+nav {
 	padding: 20px;
+	width: 300px;
 }
 
 .nav-links {
 	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	width: 200px;
+	text-align: center;
 }
+
 
 .nav-links li {
  display: inline;
 }
 
-.top-banner {
-	width: auto;
-	height: 240px;
-	text-align: center;
+.nav-links li a {
+ padding-left: 10px;
+ padding-right: 10px;
+	display: inline;
 }
+
+
 
 h1 {
 	font-size: 50px;
 	color: white;
 	font-style: italic;
 	font-family: 'Merienda', cursive;
-
+   margin: 50px auto;
 	background-color: black;
-	margin: 0px;
-	padding: 30px 30px;
 	text-shadow: 2px 2px 7px white;
-
+	padding: 0px;
+	text-align: center;
+	width: auto;
+	padding: 150px;
+	
 }
 
 h2 {
 	font-size: 30px;
-	margin-left: 80px;
+	margin: 50px;
+
+}
+
+article{
+	margin: 20px 300px;
 }
 
 a {
 	display: block;
 	color: rgba(97, 10, 11, 1.00);
 	text-decoration: none;
-
-}
-
-
-
-a:hover {
-	text-shadow: 2px 2px red;
-	transition-duration: 1s;
-
-}
-
+	left: auto;
+	right: auto;}
 
 
 p {
@@ -60,15 +62,5 @@ p {
 	font-size: 20px;
 	line-height: 30px;
 	color: black;
-
-	margin: 50px 400px;
-	text-align: center;
-	border: solid 3px black;
-}
-
-p:hover {
-	background-color: rgba(251, 251, 251, 0.53);
-	border: solid 2px white;
-	box-shadow: 2px 2px 7px white;
-	transition-duration: 1s;
+	
 }
