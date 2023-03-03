@@ -1,55 +1,74 @@
-html{
-	background: linear-gradient(white,black);
+html {
+	background: linear-gradient(white, black);
+}
+
+av {
+	padding: 20px;
+}
+
+.nav-links {
+	list-style-type: none;
+}
+
+.nav-links li {
+ display: inline;
+}
+
+.top-banner {
+	width: auto;
+	height: 240px;
+	text-align: center;
 }
 
 h1 {
-    font-size: 50px;
-    color: white;
-    font-style: italic;
-    font-family: 'Merienda', cursive;
-  text-align: center;
+	font-size: 50px;
+	color: white;
+	font-style: italic;
+	font-family: 'Merienda', cursive;
+
 	background-color: black;
 	margin: 0px;
-   padding: 30px 30px;
-	 text-shadow: 2px 2px 7px white;
-	
-	}
+	padding: 30px 30px;
+	text-shadow: 2px 2px 7px white;
 
-h2{
+}
+
+h2 {
 	font-size: 30px;
 	margin-left: 80px;
 }
 
-a{
+a {
 	display: block;
-	color: rgba(97,10,11,1.00);
+	color: rgba(97, 10, 11, 1.00);
 	text-decoration: none;
-	
+
 }
 
 
 
-a:hover{
-	text-shadow: 2px 2px  red;
+a:hover {
+	text-shadow: 2px 2px red;
 	transition-duration: 1s;
-	
+
 }
 
 
 
 p {
-    font-family: 'Itim', cursive;
-    font-size: 20px;
-    line-height: 30px;
-    color: black;
-	
+	font-family: 'Itim', cursive;
+	font-size: 20px;
+	line-height: 30px;
+	color: black;
+
 	margin: 50px 400px;
 	text-align: center;
 	border: solid 3px black;
 }
-p:hover{
-	background-color: rgba(251,251,251,0.53);
+
+p:hover {
+	background-color: rgba(251, 251, 251, 0.53);
 	border: solid 2px white;
 	box-shadow: 2px 2px 7px white;
-	transition-duration: 1s ;
+	transition-duration: 1s;
 }
