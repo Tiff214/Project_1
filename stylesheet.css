@@ -114,6 +114,10 @@ footer p{
 	margin-right:20px;
 }
 
+img{
+	width: 100%;
+}
+
 /* mobile style*/
 
 @media only screen and (max-width: 600px){
@@ -147,6 +151,12 @@ footer p{
 	
 	article{
 		margin: 0;
+	}
+
+	.articleImg{
+		width: 300px;
+		left: auto; right: auto;
+		margin: 25px 0;
 	}
 	
 	
