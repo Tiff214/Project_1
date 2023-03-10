@@ -3,6 +3,7 @@ html{
 }
 body{
 	margin: 0;
+	background: white;
 }
 
 nav {
@@ -85,11 +86,13 @@ article a {
 	width: 130px;
 	margin-left:auto;
 	
+	
 }
 
 article a:hover{
 	width: 350px;
 	transition-duration: 1s ;
+	color: red;
 }
 
 
@@ -98,6 +101,7 @@ p {
 	font-size: 20px;
 	line-height: 30px;
 	color: black;
+	background-color: white;
 	
 }
 
@@ -108,5 +112,42 @@ footer{
 }
 footer p{
 	
-	left: auto;
+	right:auto;
+	margin-right:20px;
+}
+
+/* mobile style*/
+
+@media only screen and (max-width: 600px){
+	
+	body{
+		margin: 0;
+	background: black;
+	}
+	
+	hi{
+		font-size: 40px;
+		
+	}
+	
+	h2{
+		font-size: 30px;
+		color: white;
+		text-shadow: 1px 1px 3px white;
+		margin: 0;
+	}
+	
+	p{
+		font-size: 14px;
+		color: white;
+		margin: 20px;
+		background-color: black;
+		
+	}
+	
+	article{
+		margin: 0;
+	}
+	
+	
 }
