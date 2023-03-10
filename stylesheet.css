@@ -125,8 +125,10 @@ footer p{
 	background: black;
 	}
 	
-	hi{
+	h1{
 		font-size: 40px;
+		background-image: url("https://images.pexels.com/photos/1671325/pexels-photo-1671325.jpeg?auto=compress&cs=tinysrgb&w=600");
+		margin: 0;
 		
 	}
 	
@@ -134,7 +136,7 @@ footer p{
 		font-size: 30px;
 		color: white;
 		text-shadow: 1px 1px 3px white;
-		margin: 0;
+		margin-left: 20px;
 	}
 	
 	p{
@@ -151,3 +153,4 @@ footer p{
 	
 	
 }
+
