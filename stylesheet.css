@@ -80,7 +80,7 @@ article a {
 	right: auto;
 	text-align: left;
 	margin: 10px 0;
-	border: solid black 2px;
+	border: solid white 2px;
 	width: 130px;
 	margin-left:auto;
 	
@@ -119,9 +119,19 @@ img{
 }
 .articleImg{
 	width: 300px;
-	left: auto; right: auto;
-	margin: 25px 0;
+	margin-left: 57%;
+	filter: blur(7px);
+	transition-duration: 1s;
 }
+
+.articleImg:hover{
+	filter:none;
+	transition-duration: 1s;
+}
+
+
+
+
 /* mobile style*/
 
 @media only screen and (max-width: 600px){
@@ -156,8 +166,15 @@ img{
 	article{
 		margin: 0;
 	}
-
 	
+	article a{
+		border-color: black;
+	}
+
+	.articleImg{
+		width: 300px;
+		margin-left: 60px;
+	}
 	
 	
 }
